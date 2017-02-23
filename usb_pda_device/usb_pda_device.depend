@@ -1,0 +1,183 @@
+# depslib dependency file v1.0
+1487345495 source:c:\tsi-sdk\common\dll.cpp
+	"dll.h"
+	"error.h"
+	<atomic>
+
+1485205007 c:\tsi-sdk\common\dll.h
+	<windows.h>
+
+1485205007 c:\tsi-sdk\common\error.h
+
+1483471590 source:c:\tsi-sdk\usb_pda_device\image_acquisition_data.cpp
+	"image_acquisition_data.h"
+	"kernel_obj.h"
+	"sdk_utility.h"
+	<memory>
+	<iostream>
+	<utility>
+	"types.h"
+
+1479222606 c:\tsi-sdk\usb_pda_device\image_acquisition_data.h
+	"types.h"
+
+1485205007 c:\tsi-sdk\common\types.h
+	<mutex>
+	<condition_variable>
+
+1487087916 c:\tsi-sdk\common\kernel_obj.h
+	"windows.h"
+	"module_obj.h"
+	"error.h"
+	"safe_function.h"
+	<string>
+
+1485205007 c:\tsi-sdk\common\module_obj.h
+	"windows.h"
+	<dlfcn.h>
+	"safe_function.h"
+	"error.h"
+	<functional>
+	<cstdarg>
+
+1485797881 c:\tsi-sdk\common\safe_function.h
+
+1487087916 c:\tsi-sdk\common\sdk_utility.h
+	<cstring>
+	<algorithm>
+	<sstream>
+	<memory>
+	<thread>
+	<chrono>
+	"error.h"
+	"windows.h"
+	<unistd.h>
+
+1477322965 source:c:\tsi-sdk\usb_pda_device\uart_buffer.cpp
+	"UART_buffer.h"
+	"usb_driver_obj.h"
+	"kernel_obj.h"
+	"sdk_utility.h"
+	"types.h"
+	<memory>
+
+1477323159 c:\tsi-sdk\usb_pda_device\uart_buffer.h
+	<array>
+	<cstring>
+	<atomic>
+	<mutex>
+	<condition_variable>
+
+1487366850 c:\tsi-sdk\common\usb_driver_obj.h
+	"module_obj.h"
+	"safe_function.h"
+	<string>
+
+1487366850 source:c:\tsi-sdk\usb_pda_device\usb_pda_device.cpp
+	"usb_pda_device.h"
+	"error.h"
+	"sdk_utility.h"
+	"kernel_obj.h"
+	"dll_containers.h"
+	"usb_driver_obj.h"
+	"usb_pda_device_obj.h"
+	"usb_device_module_helper.h"
+	"types.h"
+	<algorithm>
+	<memory>
+	<atomic>
+	<mutex>
+
+1485205007 c:\tsi-sdk\usb_pda_device\usb_pda_device.h
+
+1468608794 c:\tsi-sdk\common\dll_containers.h
+	"dll_functions.h"
+	"dll_attributes.h"
+	"containers.h"
+	"sdk_utility.h"
+
+1468608794 c:\tsi-sdk\common\dll_functions.h
+
+1468608794 c:\tsi-sdk\common\dll_attributes.h
+
+1485205007 c:\tsi-sdk\common\containers.h
+	<vector>
+	<list>
+	<unordered_map>
+	<utility>
+	<string>
+	"allocator.h"
+
+1485205007 c:\tsi-sdk\common\allocator.h
+	<utility>
+
+1479496064 c:\tsi-sdk\common\usb_device_wrapper.h
+	<memory>
+
+1487366850 c:\tsi-sdk\usb_pda_device\usb_pda_device_obj.h
+	"usb_driver_obj.h"
+	"kernel_obj.h"
+	"usb_pda_UART_manager.h"
+	"usb_pda_image_acquisition_data.h"
+
+1487087916 source:c:\tsi-sdk\common\uart_buffer.cpp
+	"UART_buffer.h"
+	"types.h"
+	<memory>
+
+1485205007 c:\tsi-sdk\common\uart_buffer.h
+	<array>
+	<cstring>
+	<atomic>
+	<mutex>
+	<thread>
+	<condition_variable>
+	"usb_driver_obj.h"
+	"kernel_obj.h"
+	"sdk_utility.h"
+	"types.h"
+
+1478815320 source:c:\tsi-sdk\usb_pda_device\uart_manager.cpp
+	"UART_manager.h"
+	"usb_driver_obj.h"
+	"kernel_obj.h"
+	"sdk_utility.h"
+	"types.h"
+	<memory>
+
+1478809232 c:\tsi-sdk\usb_pda_device\uart_manager.h
+	"UART_buffer.h"
+
+1487087916 c:\tsi-sdk\common\device_enumeration_helper.h
+
+1487366850 c:\tsi-sdk\common\usb_device_module_helper.h
+	"usb_driver_obj.h"
+	"sdk_utility.h"
+	"device_enumeration_helper.h"
+	<memory>
+	<thread>
+	<atomic>
+
+1487104399 c:\tsi-sdk\usb_pda_device\usb_pda_uart_manager.h
+	"UART_buffer.h"
+
+1487104399 c:\tsi-sdk\usb_pda_device\usb_pda_image_acquisition_data.h
+	"types.h"
+
+1487104399 source:c:\tsi-sdk\usb_pda_device\usb_pda_image_acquisition_data.cpp
+	"usb_pda_image_acquisition_data.h"
+	"kernel_obj.h"
+	"sdk_utility.h"
+	<memory>
+	<iostream>
+	<utility>
+	"types.h"
+
+1487104399 source:c:\tsi-sdk\usb_pda_device\usb_pda_uart_manager.cpp
+	"usb_pda_UART_manager.h"
+	"usb_driver_obj.h"
+	"kernel_obj.h"
+	"sdk_utility.h"
+	"types.h"
+	<memory>
+

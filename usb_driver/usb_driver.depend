@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1487712553 source:/media/CodeBlocks/tsi-sdk/common/dll.cpp
+	"dll.h"
+	"error.h"
+	<atomic>
+
+1487712553 /media/CodeBlocks/tsi-sdk/common/dll.h
+	<windows.h>
+
+1487712553 /media/CodeBlocks/tsi-sdk/common/error.h
+
+1487712557 source:/media/CodeBlocks/tsi-sdk/usb_driver/tsilibusb.cpp
+	<memory>
+	<set>
+	<map>
+	<string>
+	<thread>
+	<chrono>
+	<array>
+	"kernel_obj.h"
+	"tsilibusb.h"
+	"libusb.h"
+	"sdk_utility.h"
+
+1487712557 /media/CodeBlocks/tsi-sdk/usb_driver/tsilibusb.h
+	<vector>
+	"libusb.h"
+
+1487712557 /media/CodeBlocks/tsi-sdk/usb_driver/libusb.h
+	<stdint.h>
+	<sys/types.h>
+	<sys/time.h>
+	<time.h>
+	<limits.h>
+	<windows.h>
+	<winsock.h>
+
+1487712557 source:/media/CodeBlocks/tsi-sdk/usb_driver/TsiUsbInterface.cpp
+	<tchar.h>
+	<intrin.h>
+	<windows.h>
+	<memory>
+	<chrono>
+	"kernel_obj.h"
+	"TsiUsbInterface.h"
+	"sdk_utility.h"
+
+1487712557 /media/CodeBlocks/tsi-sdk/usb_driver/TsiUsbInterface.h
+	"tsilibusb.h"
+	"libusb.h"
+	"types.h"
+	"containers.h"
+	<mutex>
+	<atomic>
+	<condition_variable>
+	<algorithm>
+	<array>
+	<thread>
+	<vector>
+
+1487712557 source:/media/CodeBlocks/tsi-sdk/usb_driver/usb_driver.cpp
+	"usb_driver.h"
+	"TsiUsbInterface.h"
+	<algorithm>
+	"error.h"
+	"sdk_utility.h"
+	"kernel_obj.h"
+	"dll_containers.h"
+	"tsilibusb.h"
+	<memory>
+
+1487712557 /media/CodeBlocks/tsi-sdk/usb_driver/usb_driver.h
+

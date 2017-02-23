@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="host_app" />
+		<Option execution_dir="C:/SDK2/bin" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../bin/host_app" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="C:/SDK2/bin" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="tdm_gcc_64" />
+				<Option parameters="1 1000 1 1 1 0" />
+				<Option projectCompilerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-std=c++11" />
+					<Add option="-m64" />
+					<Add option="-g" />
+					<Add option="-ggdb" />
+					<Add directory="E:/CodeBlocks/tsi-sdk/common" />
+				</Compiler>
+				<Linker>
+					<Add option="-m64" />
+				</Linker>
+				<ExtraCommands>
+					<Add after='cmd /c copy &quot;$(PROJECT_DIR)$(TARGET_OUTPUT_FILE)&quot; &quot;E:\SDK2\bin&quot;' />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/host_app" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="tdm_gcc_64" />
+				<Option projectIncludeDirsRelation="2" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-Wall" />
+					<Add option="-std=c++11" />
+					<Add option="-m64" />
+					<Add directory="E:/CodeBlocks/tsi-sdk/common" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-m64" />
+				</Linker>
+				<ExtraCommands>
+					<Add after='cmd /c copy &quot;$(PROJECT_DIR)$(TARGET_OUTPUT_FILE)&quot; &quot;E:\SDK2\bin&quot;' />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../../CodeBlocks/tsi-sdk/host_app/host_app_main.cpp" />
+		<Unit filename="../../CodeBlocks/tsi-sdk/host_app/image_buffer.h" />
+		<Unit filename="../../CodeBlocks/tsi-sdk/host_app/tsi_tiff.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

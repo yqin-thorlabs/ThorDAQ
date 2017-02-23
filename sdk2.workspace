@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="main_module/main_module.cbp" />
+		<Project filename="host_app/host_app.cbp" />
+		<Project filename="kernel/kernel.cbp" />
+		<Project filename="unit_tests/unit_tests.cbp" />
+		<Project filename="usb_driver/usb_driver.cbp" />
+		<Project filename="sync_table_protocol/sync_table_protocol.cbp" />
+		<Project filename="tsi_ccd_usb_camera_device/tsi_ccd_usb_camera_device.cbp" />
+		<Project filename="tsi_mid_grade_usb_camera_device/tsi_mid_grade_usb_camera_device.cbp" />
+		<Project filename="usb_pda_device/usb_pda_device.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
